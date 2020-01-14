@@ -43,7 +43,7 @@ public class DijkstreeAlgorithm {
     graph.put(3, start_b);
     graph.put(4, b_a);
     graph.put(1, a_end);
-    graph.put(2, start_end);
+    graph.put(2, start_end); // дополнительное ребро для корректности работы алгоритма
     graph.put(5, b_end);
 
     //Вызываем метод реализующий алгоритм Дейкстри
